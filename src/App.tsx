@@ -31,7 +31,7 @@ function App() {
     }
     return (
     <div className="App">
-     <NewsList news={news}/>
+        <NewsList news={news}/>
     </div>
   );
 }

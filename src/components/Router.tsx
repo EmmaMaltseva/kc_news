@@ -16,7 +16,7 @@ const Router:FC = () => {
             <Route path="/technology" element={<TechnologyPage />}/>
             <Route path="/music" element={<MusicPage />}/>
             <Route path="/karpov" element={<KarpovPage />}/>
-            <Route path="*" element={<Error />}/>
+            <Route path="*" element={<MainPage />}/>
             <Route path="/main/:id" element={<NewsItemPage />}/>
         </Routes>
     );

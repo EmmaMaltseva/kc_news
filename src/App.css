@@ -208,7 +208,6 @@ svg * {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 20px; /*расстояние между элементами списка*/
   padding-left: 240px;
   padding-right: 350px;
   padding-top: 40px;
@@ -223,12 +222,11 @@ svg * {
 .header-menu-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 60px;
+  column-gap: 55px;
 }
 
 .header-menu-link {
   display: inline-flex;
-  align-items: center;
   height: var(--header-height);
   /*выше 3 свойства для увелечения высоты ссылки меню по макету(чтобы место нажатия было больше)*/
   column-gap: 7px;
@@ -241,13 +239,9 @@ svg * {
 
 .header-menu-link:hover {
   color: var(--color-orange);
+  cursor: pointer;
 }
 
-.header-menu-link.is-current::after {
-  width: 5px;
-  aspect-ratio: 1; /*ширина такая же как высота*/
-  background-color: currentColor;
-  border-radius: 50%;
-}
+
 
 

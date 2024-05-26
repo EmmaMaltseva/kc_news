@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2477a8-6af8-4928-8e1d-53ae30b984c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Router.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/custom.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KarpovPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MusicPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TechnologyPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +49,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "router__navbar",
-    "last_opened_file_path": "C:/Users/374/code/kc_news/src/assets/image",
+    "last_opened_file_path": "C:/Users/374/code/kc_news",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,7 +87,8 @@
       <updated>1716625307989</updated>
       <workItem from="1716625309068" duration="1118000" />
       <workItem from="1716626478490" duration="10933000" />
-      <workItem from="1716716420351" duration="8875000" />
+      <workItem from="1716716420351" duration="9315000" />
+      <workItem from="1716747605252" duration="1987000" />
     </task>
     <servers />
   </component>

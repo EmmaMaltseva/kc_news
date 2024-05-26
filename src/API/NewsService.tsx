@@ -3,7 +3,6 @@ import {IAll} from "../types/types";
 
 export default class NewsService {
     static async getNews()  {
-        try {
             const response = await axios.get<IAll>('https://frontend.karpovcourses.net/api/v2/ru/news/0')
             response.data.items.forEach((newsItem) => {
                 const category = response.data.categories.find((category) => category.id === parseInt(newsItem.category_id));
@@ -16,8 +15,5 @@ export default class NewsService {
                 }
             });
             return response.data.items
-        } catch (e) {
-            alert(e)
-        }
     }
 }

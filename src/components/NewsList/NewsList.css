@@ -1,0 +1,7 @@
+.list-big-item-news {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 55px;
+}

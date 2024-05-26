@@ -1,39 +1,16 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
-import NewsList from "./components/NewsList";
-import {IAll, INews} from "./types/types";
-import axios from "axios";
+import {BrowserRouter} from "react-router-dom"
 
-function App() {
-    const [news, setNews] = useState<INews[]>([])
+import Body from "./components/Body";
 
-    useEffect(() => {
-        fetchNews()
-   }, [])
 
-    async function fetchNews() {
-        try {
-            const response = await axios.get<IAll>('https://frontend.karpovcourses.net/api/v2/ru/news/0')
-            response.data.items.forEach((newsItem) => {
-                const category = response.data.categories.find((category) => category.id === parseInt(newsItem.category_id));
-                if (category) {
-                    newsItem.category_id = category.name;
-                }
-                const source = response.data.sources.find((source) => source.id === parseInt(newsItem.source_id));
-                if (source) {
-                    newsItem.source_id = source.name;
-                }
-            });
-            setNews(response.data.items)
-        } catch (e) {
-            alert(e)
-        }
-    }
+const App = () => {
     return (
-    <div className="App">
-        <NewsList news={news}/>
-    </div>
-  );
+        <BrowserRouter>
+            <Body />
+        </BrowserRouter>
+    )
 }
 
 export default App;

@@ -47,7 +47,7 @@ const NewsItemPage:FC = () => {
             <img
                 src={news?.image}
                 alt="Изображение к новости"
-                height="200"
+                width="350"
                 onError={({currentTarget}) => {
                     currentTarget.onerror = null; // prevents looping
                     currentTarget.src = 'https://tsul.uz/images/default-news-image.png';

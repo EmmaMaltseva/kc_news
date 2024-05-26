@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import Navbar from "./Navbar";
 import Router from "./Router"
 
-const Body:FC = () => {
+const Header:FC = () => {
     return (
         <div className="body">
             <Navbar />
@@ -11,4 +11,4 @@ const Body:FC = () => {
     );
 };
 
-export default Body;
+export default Header;

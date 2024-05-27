@@ -2,8 +2,8 @@ import axios from "axios";
 import {IAll} from "../types/types";
 
 export default class NewsService {
-    static async getNews()  {
-            const response = await axios.get<IAll>('https://frontend.karpovcourses.net/api/v2/ru/news/0')
+    static async getNews(urlNews: string)  {
+            const response = await axios.get<IAll>(urlNews)
             response.data.items.forEach((newsItem) => {
                 const category = response.data.categories.find((category) => category.id === parseInt(newsItem.category_id));
                 if (category) {

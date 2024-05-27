@@ -18,7 +18,7 @@ const NewsItemPage:FC = () => {
     const navigate = useNavigate();
 
     const [fetchNews, isNewsLoading, newsError] = useFetching(async () => {
-        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/0');
+        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/3');
         // @ts-ignore
         setNews(news[params.id])
     })
@@ -34,8 +34,8 @@ const NewsItemPage:FC = () => {
             }
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>
-                : <div className="news-item-page">
-                    <button className="btn-back" onClick={() => navigate('/main')}>Назад</button>
+                : <div className="container-my news-item-page">
+                    <button className="btn-back" onClick={() => navigate('/fashion')}>Назад</button>
                     <h1 className="news-item-page-title">{news?.title}</h1>
                     <div>
                         <span className="news-item-page-category">Категория: {news?.category_id}</span>

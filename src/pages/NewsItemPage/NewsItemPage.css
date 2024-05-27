@@ -1,5 +1,7 @@
 .news-item-page {
-
+    max-width: 1450px;
+    margin-inline: auto; /*центрировать контент по горизонтали*/
+    margin-top: 50px;
 }
 
 .news-item-page-title {

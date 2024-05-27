@@ -203,6 +203,7 @@ svg * {
 }
 
 .body {
+  min-height: calc(100vh - var(--header-height));
   font-family: var(--font-family-base);
   font-weight: 400;
   font-size: 22px;
@@ -249,7 +250,7 @@ svg * {
 }
 
 .loader {
-  min-height: calc(100vh - var(--header-height));
+
 }
 
 

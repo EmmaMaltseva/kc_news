@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2477a8-6af8-4928-8e1d-53ae30b984c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +77,11 @@
       <recent name="C:\Users\374\code\kc_news\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\374\code\kc_news\src\components\Header" />
+      <recent name="C:\Users\374\code\kc_news\src\pages\NewsItemPage" />
       <recent name="C:\Users\374\code\kc_news\src\components\NewsList" />
       <recent name="C:\Users\374\code\kc_news\src\components\NewsItem" />
       <recent name="C:\Users\374\code\kc_news\src\components" />
-      <recent name="C:\Users\374\code\kc_news\src\components\UI\Loader" />
-      <recent name="C:\Users\374\code\kc_news\src\assets\image" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -92,7 +103,7 @@
       <workItem from="1716626478490" duration="10933000" />
       <workItem from="1716716420351" duration="9315000" />
       <workItem from="1716747605252" duration="1987000" />
-      <workItem from="1716795050002" duration="7949000" />
+      <workItem from="1716795050002" duration="10355000" />
     </task>
     <servers />
   </component>

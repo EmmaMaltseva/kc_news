@@ -9,7 +9,7 @@ interface NewsItemProps {
 
 const NewsItem: FC<NewsItemProps> = ({news, onClick}) => {
     return (
-        <div onClick={() => onClick(news)} className="big-item-news">
+        <div onClick={() => onClick(news)} className="big-item-news btn-new">
             <div className="box-image">
                 <img
                     className="image-big-item-news"

@@ -1,12 +1,12 @@
 import React, {FC} from 'react';
 import {Route, Routes} from "react-router-dom";
-import MainPage from "../pages/MainPage";
-import FashionPage from "../pages/FashionPage";
-import {Error} from "../pages/Error";
-import NewsItemPage from "../pages/NewsItemPage";
-import TechnologyPage from "../pages/TechnologyPage";
-import MusicPage from "../pages/MusicPage";
-import KarpovPage from "../pages/KarpovPage";
+import MainPage from "../../pages/MainPage";
+import FashionPage from "../../pages/FashionPage";
+import {Error} from "../../pages/Error";
+import NewsItemPage from "../../pages/NewsItemPage/NewsItemPage";
+import TechnologyPage from "../../pages/TechnologyPage";
+import MusicPage from "../../pages/MusicPage";
+import KarpovPage from "../../pages/KarpovPage";
 
 const Router:FC = () => {
     return (

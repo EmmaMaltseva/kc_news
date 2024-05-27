@@ -1,0 +1,15 @@
+.list-news {
+    display: flex;
+}
+
+.list-big-item-news {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.list-little-item-news {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}

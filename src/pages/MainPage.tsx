@@ -8,7 +8,7 @@ import {useFetching} from "../hooks/useFetching";
 const MainPage:FC = () => {
     const [news, setNews] = useState<INews[] | any>([])
     const [fetchNews, isNewsLoading, newsError] = useFetching(async () => {
-        const news = await NewsService.getNews();
+        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/0');
         setNews(news);
     })
 
@@ -23,7 +23,7 @@ const MainPage:FC = () => {
             }
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>
-                : <NewsList news={news}/>
+                : <NewsList news={news} route={'/main/'}/>
             }
         </div>
     );

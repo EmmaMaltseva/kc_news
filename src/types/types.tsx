@@ -11,7 +11,7 @@ export interface ICategories {
 export interface INews {
     id: number;
     lang: string;
-    date: Date;
+    date: string;
     title: string;
     description: string;
     image: string;

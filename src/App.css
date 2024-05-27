@@ -109,7 +109,7 @@ p {
   который расположен не последним среди своих соседних элементов
  */
 p:where(:not([class]):not(:last-child)) {
-  margin-bottom: var(--paragraphMarginBottom);
+  margin-bottom: 0;
 }
 
 
@@ -190,16 +190,15 @@ svg * {
 
   --font-family-base: 'Rubik', sans-serif;
 
-  --container-width: 1440px;
+  --container-width: 1450px;
   --container-padding-x: 15px;
 
   --header-height: 90px;
 }
 
-.container {
-  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+.container-my {
+  max-width: 1450px;
   margin-inline: auto; /*центрировать контент по горизонтали*/
-  padding-inline: var(--container-padding-x);
 }
 
 .body {

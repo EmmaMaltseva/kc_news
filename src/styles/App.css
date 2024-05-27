@@ -248,6 +248,9 @@ svg * {
   cursor: pointer;
 }
 
+.loader {
+  min-height: calc(100vh - var(--header-height));
+}
 
 
 

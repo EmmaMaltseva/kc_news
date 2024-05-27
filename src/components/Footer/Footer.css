@@ -1,0 +1,43 @@
+.footer {
+    background-color: var(--color-dark);
+}
+
+.footer-main-inner {
+    padding-top: 22px;
+    padding-bottom: 56px;
+}
+
+.footer-header {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 55px;
+}
+
+.footer-menu-link {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--color-light)
+}
+
+.footer-body {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-light);
+    font-size: 24px;
+}
+
+.footer-karpov-link {
+    font-weight: 700;
+    color: var(--color-orange)
+}
+
+.footer-copyright {
+    color: var(--color-light-grey)
+}

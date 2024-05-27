@@ -1,5 +1,6 @@
 import React, {CSSProperties} from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
+import '../../../styles/App.css'
 
 interface LoaderProps {
     loading: boolean;
@@ -19,7 +20,7 @@ const Loader: React.FC<LoaderProps> = ({ loading, message, size }) => {
     }
 
     return loading ? (
-        <div className='overlay-content'>
+        <div className='overlay-content loader'>
             <div className='wrapper'>
                 <ClipLoader
                     cssOverride={override}

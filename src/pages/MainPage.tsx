@@ -1,5 +1,5 @@
 import React, {FC, useEffect, useState} from 'react';
-import {IAll, INews} from "../types/types";
+import {INews} from "../types/types";
 import NewsList from "../components/NewsList/NewsList";
 import NewsService from "../API/NewsService";
 import Loader from "../components/UI/Loader/Loader";

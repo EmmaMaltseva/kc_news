@@ -6,7 +6,7 @@ const Navbar: FC = () => {
 
     return (
         <div className="header">
-            <Link className="header-logo" to="/main">
+            <Link className="header-logo" to="/">
                 <img
                     className="header-logo-image"
                     src={logo}
@@ -17,7 +17,7 @@ const Navbar: FC = () => {
             <nav className="header-menu">
                 <ul className="header-menu-list">
                     <li className="header-menu-item">
-                        <Link className="header-menu-link is-current" to="/main">Главная</Link>
+                        <Link className="header-menu-link is-current" to="/">Главная</Link>
                     </li>
                     <li className="header-menu-item">
                         <Link className="header-menu-link is-current" to="/fashion">Мода</Link>
@@ -26,7 +26,7 @@ const Navbar: FC = () => {
                         <Link className="header-menu-link is-current" to="/technology">Технологии</Link>
                     </li>
                     <li className="header-menu-item">
-                        <Link className="header-menu-link is-current" to="/music">Музыка</Link>
+                        <Link className="header-menu-link is-current" to="/sport">Спорт</Link>
                     </li>
                     <li className="header-menu-item">
                         <Link className="header-menu-link is-current" to="/karpov">Karpov</Link>

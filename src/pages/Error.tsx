@@ -6,7 +6,7 @@ type Props = {
 };
 export const Error = (props: Props) => {
     return (
-        <div>
+        <div >
             Нет такого адреса
         </div>
     );

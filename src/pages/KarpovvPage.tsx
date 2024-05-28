@@ -1,14 +1,14 @@
 import React, {FC, useEffect, useState} from 'react';
 import {INews} from "../types/types";
-import NewsList from "../components/NewsList/NewsList";
+import {useFetching} from "../hooks/useFetching";
 import NewsService from "../API/NewsService";
 import Loader from "../components/UI/Loader/Loader";
-import {useFetching} from "../hooks/useFetching";
+import NewsList from "../components/NewsList/NewsList";
 
-const MainPage:FC = () => {
+const KarpovvPage:FC = () => {
     const [news, setNews] = useState<INews[] | any>([])
     const [fetchNews, isNewsLoading, newsError] = useFetching(async () => {
-        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/0');
+        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/6');
         setNews(news);
     })
 
@@ -23,10 +23,10 @@ const MainPage:FC = () => {
             }
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>
-                : <NewsList news={news} route={'/'}/>
+                : <NewsList news={news} route={'/karpov/'}/>
             }
         </div>
     );
 };
 
-export default MainPage;
+export default KarpovvPage;

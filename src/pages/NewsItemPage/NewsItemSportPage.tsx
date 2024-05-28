@@ -10,15 +10,14 @@ type NewsItemPageParams = {
     id: string;
 }
 
-const NewsItemPage:FC = () => {
-
+const NewsItemSportPage = () => {
     const [news, setNews] = useState<INews | null>(null)
 
     const params = useParams<NewsItemPageParams>()
     const navigate = useNavigate();
 
     const [fetchNews, isNewsLoading, newsError] = useFetching(async () => {
-        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/0');
+        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/2');
         // @ts-ignore
         setNews(news[params.id])
     })
@@ -35,7 +34,7 @@ const NewsItemPage:FC = () => {
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>
                 : <div className="news-item-page">
-                    <button className="btn-back" onClick={() => navigate('/')}>Назад</button>
+                    <button className="btn-back" onClick={() => navigate('/sport')}>Назад</button>
                     <h1 className="news-item-page-title">{news?.title}</h1>
                     <div>
                         <span className="news-item-page-category">Категория: {news?.category_id}</span>
@@ -64,4 +63,4 @@ const NewsItemPage:FC = () => {
     );
 };
 
-export default NewsItemPage;
+export default NewsItemSportPage;

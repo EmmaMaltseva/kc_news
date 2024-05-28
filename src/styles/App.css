@@ -100,8 +100,8 @@ body,
   чтобы избежать взаимодействие с более сложным селектором
  */
 p {
-  --paragraphMarginBottom: 24px;
-  margin-block: 0;
+  --paragraphMarginBottom: 0px;
+  margin-bottom: 0;
 }
 
 /**

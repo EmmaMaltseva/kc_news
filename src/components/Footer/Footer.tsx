@@ -18,7 +18,7 @@ const Footer:FC = () => {
                     </Link>
                     <ul className="footer-menu-list">
                         <li className="footer-menu-item">
-                            <Link className="footer-menu-link is-current" to="/main">Главная</Link>
+                            <Link className="footer-menu-link is-current" to="/">Главная</Link>
                         </li>
                         <li className="footer-menu-item">
                             <Link className="footer-menu-link is-current" to="/fashion">Мода</Link>
@@ -27,7 +27,7 @@ const Footer:FC = () => {
                             <Link className="footer-menu-link is-current" to="/technology">Технологии</Link>
                         </li>
                         <li className="footer-menu-item">
-                            <Link className="footer-menu-link is-current" to="/music">Музыка</Link>
+                            <Link className="footer-menu-link is-current" to="/sport">Музыка</Link>
                         </li>
                         <li className="footer-menu-item">
                             <Link className="footer-menu-link is-current" to="/karpov">Karpov</Link>

@@ -1,16 +1,15 @@
-import React, {FC, useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {INews} from "../../types/types";
 import {useNavigate, useParams} from "react-router-dom";
 import {useFetching} from "../../hooks/useFetching";
 import NewsService from "../../API/NewsService";
 import Loader from "../../components/UI/Loader/Loader";
-import './NewsItemPage.css'
 
 type NewsItemPageParams = {
     id: string;
 }
 
-const NewsItemPage:FC = () => {
+const NewsItemKarpovPage = () => {
 
     const [news, setNews] = useState<INews | null>(null)
 
@@ -18,7 +17,7 @@ const NewsItemPage:FC = () => {
     const navigate = useNavigate();
 
     const [fetchNews, isNewsLoading, newsError] = useFetching(async () => {
-        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/0');
+        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/6');
         // @ts-ignore
         setNews(news[params.id])
     })
@@ -34,8 +33,8 @@ const NewsItemPage:FC = () => {
             }
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>
-                : <div className="news-item-page">
-                    <button className="btn-back" onClick={() => navigate('/')}>Назад</button>
+                : <div className="container-my news-item-page">
+                    <button className="btn-back" onClick={() => navigate('/karpov')}>Назад</button>
                     <h1 className="news-item-page-title">{news?.title}</h1>
                     <div>
                         <span className="news-item-page-category">Категория: {news?.category_id}</span>
@@ -64,4 +63,4 @@ const NewsItemPage:FC = () => {
     );
 };
 
-export default NewsItemPage;
+export default NewsItemKarpovPage;

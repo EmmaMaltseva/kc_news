@@ -8,7 +8,7 @@ const Footer:FC = () => {
         <footer className="footer">
             <div className="footer-main-inner container-my">
                 <header className="footer-header">
-                    <Link className="footer-logo" to="/main">
+                    <Link className="footer-logo" to="/">
                         <img
                             className="footer-logo-image"
                             src={logo}
@@ -27,7 +27,7 @@ const Footer:FC = () => {
                             <Link className="footer-menu-link is-current" to="/technology">Технологии</Link>
                         </li>
                         <li className="footer-menu-item">
-                            <Link className="footer-menu-link is-current" to="/sport">Музыка</Link>
+                            <Link className="footer-menu-link is-current" to="/sport">Спорт</Link>
                         </li>
                         <li className="footer-menu-item">
                             <Link className="footer-menu-link is-current" to="/karpov">Karpov</Link>

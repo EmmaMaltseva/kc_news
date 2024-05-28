@@ -27,7 +27,11 @@
     text-decoration: none;
     font-size: 24px;
     font-weight: 900;
-    color: var(--color-light)
+    color: var(--color-light);
+}
+
+.footer-menu-link:hover {
+    color: var(--color-orange)
 }
 
 .footer-body {

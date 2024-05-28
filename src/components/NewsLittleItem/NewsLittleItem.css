@@ -51,3 +51,9 @@
     background-color: currentColor;
     border-radius: 50%;
 }
+
+.little-news-source-link {
+    text-decoration: none;
+    outline: none;
+    color: var(--color-light-grey);
+}

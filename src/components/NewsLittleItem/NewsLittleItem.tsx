@@ -14,7 +14,9 @@ const NewsItem: FC<NewsItemProps> = ({news, onClick}) => {
                 <h3 className="little-news-title">{news.title}</h3>
                 <div className="little-news-description">
                     <p className="little-news-title">{news.date.slice(4, 10)}</p>
-                    <p className="little-news-source">{news.source_id.toUpperCase()}</p>
+                    <p className="little-news-source">
+                        <a href='/' className="little-news-source-link">ИСТОЧНИК</a>
+                    </p>
                 </div>
 
             </div>

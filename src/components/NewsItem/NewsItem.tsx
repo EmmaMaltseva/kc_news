@@ -25,7 +25,10 @@ const NewsItem: FC<NewsItemProps> = ({news, onClick}) => {
                 <p className="news-category">{news.category_id.toUpperCase()}</p>
                 <h2 className="news-title">{news.title}</h2>
                 <p className="news-description">{news.description}</p>
-                <p className="news-source">{news.source_id.toUpperCase()}</p>
+                <p className="news-source">
+                    <a href='/' className="news-source-link">ИСТОЧНИК</a>
+                </p>
+
             </div>
         </div>
     );

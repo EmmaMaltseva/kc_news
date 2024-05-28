@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Сайт на React kc_news
+![image](https://github.com/EmmaMaltseva/kc_news/assets/92587254/affafd39-5905-436a-849f-b757c8be7458)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

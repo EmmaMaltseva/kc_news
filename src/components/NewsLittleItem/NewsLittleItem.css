@@ -23,12 +23,14 @@
 .little-news-description {
     display: flex;
     column-gap: 7px;
+    margin-top: 14px;
 }
 
 .little-news-date {
     font-size: 20px;
     font-weight: 400;
     color: var(--color-orange);
+    text-transform: uppercase;
 }
 
 .little-news-source {

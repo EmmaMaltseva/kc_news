@@ -12,7 +12,7 @@ import {Error} from "../../pages/Error";
 const Router:FC = () => {
     return (
         <Routes>
-            <Route path="/" element={<MainPage />} />
+            <Route path="/" element={<MainPage />}/>
             <Route path="/fashion" element={<FashionPage />}/>
             <Route path="/technology" element={<TechnologyPage />}/>
             <Route path="/sport" element={<SportPage />}/>

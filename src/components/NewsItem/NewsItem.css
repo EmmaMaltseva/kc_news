@@ -37,6 +37,7 @@
 }
 
 .news-title {
+    margin-top: 10px;
     font-size: 42px;
     font-weight: 700;
     overflow: hidden;
@@ -44,9 +45,11 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    line-height: normal;
 }
 
 .news-description {
+    margin-top: 30px;
     font-size: 22px;
     font-weight: 400;
     overflow: hidden;
@@ -54,9 +57,11 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    line-height: normal;
 }
 
 .news-source {
+    margin-top: 34px;
     font-size: 20px;
     font-weight: 500;
     color: var(--color-light-grey);

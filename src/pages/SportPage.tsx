@@ -7,19 +7,25 @@ import NewsList from "../components/NewsList/NewsList";
 
 const SportPage = () => {
     const [news, setNews] = useState<INews[] | any>([])
+    const [mount, setMount] = useState(false)
+
     const [fetchNews, isNewsLoading, newsError] = useFetching(async () => {
         const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/2');
         setNews(news);
     })
 
     useEffect(() => {
-        fetchNews()
-    }, [])
+        if(!mount) {
+            setMount(true);
+            fetchNews()
+        }
+
+    }, [fetchNews, mount])
 
     return (
         <div className="App">
             {newsError &&
-                <h1>Произошла ошибка</h1>
+                <h1>Произошла ошибка загрузки данных</h1>
             }
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>

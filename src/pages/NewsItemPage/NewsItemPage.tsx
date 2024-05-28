@@ -7,26 +7,55 @@ import Loader from "../../components/UI/Loader/Loader";
 import './NewsItemPage.css'
 
 type NewsItemPageParams = {
+    numCategory: string;
     id: string;
 }
 
 const NewsItemPage:FC = () => {
 
     const [news, setNews] = useState<INews | null>(null)
+    const [mount, setMount] = useState(false)
 
     const params = useParams<NewsItemPageParams>()
     const navigate = useNavigate();
 
+    let itemApi = '0';
+    switch(params.numCategory) {
+        case 'fashion': {
+            itemApi = '3'
+            break;
+        }
+        case 'technology': {
+            itemApi = '1'
+            break;
+        }
+        case 'sport': {
+            itemApi = '2'
+            break;
+        }
+        case 'karpov': {
+            itemApi = '6'
+            break;
+        }
+        default: {
+            break;
+        }
+    }
+
     const [fetchNews, isNewsLoading, newsError] = useFetching(async () => {
-        const news = await NewsService.getNews('https://frontend.karpovcourses.net/api/v2/ru/news/0');
+        const news = await NewsService.getNews(`https://frontend.karpovcourses.net/api/v2/ru/news/${itemApi}`);
         // @ts-ignore
         setNews(news[params.id])
     })
 
-    useEffect(() => {
-        fetchNews()
-    }, [])
 
+    useEffect(() => {
+        if(!mount) {
+            setMount(true);
+            fetchNews()
+        }
+
+    }, [fetchNews, mount])
     return (
         <div>
             {newsError &&
@@ -34,8 +63,8 @@ const NewsItemPage:FC = () => {
             }
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>
-                : <div className="news-item-page">
-                    <button className="btn-back" onClick={() => navigate('/')}>Назад</button>
+                : <div className="container-my news-item-page">
+                    <button className="btn-back" onClick={() => navigate(`/${params.numCategory || ''}`)}>Назад</button>
                     <h1 className="news-item-page-title">{news?.title}</h1>
                     <div>
                         <span className="news-item-page-category">Категория: {news?.category_id}</span>

@@ -4,6 +4,7 @@
     column-gap: 20px;
     max-width: 1004px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .btn-new:hover {
@@ -59,4 +60,5 @@
     font-size: 20px;
     font-weight: 500;
     color: var(--color-light-grey);
+    margin-bottom: 0;
 }

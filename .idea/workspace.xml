@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2477a8-6af8-4928-8e1d-53ae30b984c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemFashionPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemTechnologyPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/NewsService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/NewsService.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FashionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FashionPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TechnologyPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TechnologyPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="api_struct" />
+        <entry key="$PROJECT_DIR$" value="footer_component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,8 +48,8 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;footer__component&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/374/code/kc_news/src/pages/NewsItemPage&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sport__karpov__pages&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/374/code/kc_news/src/assets/fonts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -70,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\374\code\kc_news\src\assets\fonts" />
       <recent name="C:\Users\374\code\kc_news\src\pages\NewsItemPage" />
       <recent name="C:\Users\374\code\kc_news\src\components\NewsLittleItem" />
       <recent name="C:\Users\374\code\kc_news\src\assets\image" />
@@ -105,6 +97,10 @@
       <workItem from="1716795050002" duration="10355000" />
       <workItem from="1716811158887" duration="4699000" />
       <workItem from="1716815992002" duration="547000" />
+      <workItem from="1716816746738" duration="52000" />
+      <workItem from="1716879105975" duration="4741000" />
+      <workItem from="1716883955397" duration="1441000" />
+      <workItem from="1716885658937" duration="10122000" />
     </task>
     <servers />
   </component>

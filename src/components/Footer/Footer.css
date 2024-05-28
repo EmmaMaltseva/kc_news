@@ -1,5 +1,9 @@
 .footer {
     background-color: var(--color-dark);
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--color-dark)
 }
 
 .footer-main-inner {
@@ -10,6 +14,7 @@
 .footer-header {
     display: flex;
     align-items: center;
+    column-gap: 78px;
 }
 
 .footer-menu-list {

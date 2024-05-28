@@ -6,6 +6,7 @@
     justify-content: space-between;
     column-gap: 20px;
     max-width: 345px;
+    cursor: pointer;
 }
 
 .little-news-title {
@@ -16,6 +17,7 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    margin-bottom: 0!important;
 }
 
 .little-news-description {
@@ -39,6 +41,7 @@
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1.2px;
+    margin-bottom: 0!important;
 }
 
 .little-news-source::before {

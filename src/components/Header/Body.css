@@ -1,0 +1,47 @@
+
+.body {
+    min-height: calc(100vh - var(--header-height));
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    font-size: 22px;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 240px;
+    padding-right: 350px;
+    padding-top: 40px;
+    background-color: var(--color-light);
+    min-height: var(--header-height);
+}
+
+.header-logo {
+    flex-shrink: 0; /*чтобы логотип не сжимался при уменьшении экрана*/
+}
+
+.header-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 55px;
+}
+
+.header-menu-link {
+    display: inline-flex;
+    height: var(--header-height);
+    /*выше 3 свойства для увелечения высоты ссылки меню по макету(чтобы место нажатия было больше)*/
+    column-gap: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--color-dark);
+}
+
+.header-menu-link:hover {
+    color: var(--color-orange);
+    cursor: pointer;
+}

@@ -7,7 +7,7 @@ import Loader from "../../components/UI/Loader/Loader";
 import './NewsItemPage.css'
 
 type NewsItemPageParams = {
-    numCategory: string;
+    namePage: string;
     id: string;
 }
 
@@ -20,7 +20,7 @@ const NewsItemPage:FC = () => {
     const navigate = useNavigate();
 
     let itemApi = '0';
-    switch(params.numCategory) {
+    switch(params.namePage) {
         case 'fashion': {
             itemApi = '3'
             break;
@@ -64,7 +64,7 @@ const NewsItemPage:FC = () => {
             {isNewsLoading
                 ? <Loader size={40} loading={isNewsLoading}/>
                 : <div className="container-my news-item-page">
-                    <button className="btn-back" onClick={() => navigate(`/${params.numCategory || ''}`)}>Назад</button>
+                    <button className="btn-back" onClick={() => navigate(`/${params.namePage || ''}`)}>Назад</button>
                     <h1 className="news-item-page-title">{news?.title}</h1>
                     <div>
                         <span className="news-item-page-category">Категория: {news?.category_id}</span>

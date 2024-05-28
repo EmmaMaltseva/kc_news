@@ -18,10 +18,10 @@ const Router:FC = () => {
             <Route path="/sport" element={<SportPage />}/>
             <Route path="/karpov" element={<KarpovvPage />}/>
             <Route path="/:id" element={<NewsItemPage />}/>
-            <Route path="/:numCategory/:id" element={<NewsItemPage />}/>
-            <Route path="/:numCategory/:id" element={<NewsItemPage />}/>
-            <Route path="/:numCategory/:id" element={<NewsItemPage />}/>
-            <Route path="/:numCategory/:id" element={<NewsItemPage />}/>
+            <Route path="/:namePage/:id" element={<NewsItemPage />}/>
+            <Route path="/:namePage/:id" element={<NewsItemPage />}/>
+            <Route path="/:namePage/:id" element={<NewsItemPage />}/>
+            <Route path="/:namePage/:id" element={<NewsItemPage />}/>
             <Route path="*" element={<Error />}/>
         </Routes>
     );

@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2477a8-6af8-4928-8e1d-53ae30b984c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Rubik-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Rubik-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Rubik-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Rubik-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Rubik-Black.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Rubik-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Rubik-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Rubik-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Body.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useFetching.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useFetching.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FashionPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FashionPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/KarpovvPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/KarpovvPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemFashionPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemKarpovPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemSportPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemTechnologyPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SportPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SportPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TechnologyPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TechnologyPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +105,7 @@
       <workItem from="1716816746738" duration="52000" />
       <workItem from="1716879105975" duration="4741000" />
       <workItem from="1716883955397" duration="1441000" />
-      <workItem from="1716885658937" duration="7947000" />
+      <workItem from="1716885658937" duration="9280000" />
     </task>
     <servers />
   </component>

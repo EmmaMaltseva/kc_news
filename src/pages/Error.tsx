@@ -7,7 +7,7 @@ type Props = {
 export const Error = (props: Props) => {
     return (
         <div >
-            Нет такого адреса
+            <h1>Страница не существует</h1>
         </div>
     );
 };

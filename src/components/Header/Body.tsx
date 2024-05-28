@@ -1,8 +1,9 @@
 import React, {FC} from 'react';
 import Navbar from "./Navbar";
 import Router from "./Router"
+import './Body.css'
 
-const Header:FC = () => {
+const Body:FC = () => {
     return (
         <div className="body">
             <Navbar />
@@ -11,4 +12,4 @@ const Header:FC = () => {
     );
 };
 
-export default Header;
+export default Body;

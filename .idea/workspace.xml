@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2477a8-6af8-4928-8e1d-53ae30b984c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ScrollToTop.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;adaptiv&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/374/code/kc_news/src/assets/fonts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -102,7 +110,8 @@
       <workItem from="1716879105975" duration="4741000" />
       <workItem from="1716883955397" duration="1441000" />
       <workItem from="1716885658937" duration="10122000" />
-      <workItem from="1716924767180" duration="1198000" />
+      <workItem from="1716924767180" duration="4255000" />
+      <workItem from="1716966452349" duration="6266000" />
     </task>
     <servers />
   </component>

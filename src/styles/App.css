@@ -201,3 +201,11 @@ svg * {
   margin-inline: auto; /*центрировать контент по горизонтали*/
   margin-top: 130px;
 }
+
+@media (max-width: 1570px) {
+
+  .container-my {
+    margin-top: 90px;
+
+  }
+}

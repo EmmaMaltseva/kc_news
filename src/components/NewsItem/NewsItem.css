@@ -101,3 +101,9 @@
         margin-top: 10px;
     }
 }
+
+@media (max-width: 767px) {
+    .big-item-news {
+        margin-inline: 30px;
+    }
+}

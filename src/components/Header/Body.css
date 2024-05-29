@@ -90,6 +90,17 @@
 }
 
 @media (max-width: 767px) {
+    .header-my {
+        padding-inline: 30px;
+    }
 
+    .header-logo-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    .container-my {
+        margin-top: 30px;
+    }
 }
 

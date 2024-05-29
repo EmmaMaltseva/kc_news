@@ -8,14 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsItem/NewsItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsLittleItem/NewsLittleItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsItemPage/NewsItemPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +106,7 @@
       <workItem from="1716883955397" duration="1441000" />
       <workItem from="1716885658937" duration="10122000" />
       <workItem from="1716924767180" duration="4255000" />
-      <workItem from="1716966452349" duration="6266000" />
+      <workItem from="1716966452349" duration="7263000" />
     </task>
     <servers />
   </component>

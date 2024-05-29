@@ -176,3 +176,9 @@
         margin-top: 10px;
     }
 }
+
+@media (max-width: 767px) {
+    .little-item-news {
+        margin-inline: 3g0px;
+    }
+}

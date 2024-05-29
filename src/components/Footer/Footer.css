@@ -85,3 +85,13 @@
     .footer-menu-list {
         column-gap: 20px;}
 }
+
+@media (max-width: 767px) {
+    .footer {
+        padding-inline: 30px;
+    }
+    .footer-body {
+        flex-direction: column;
+        margin-top: 0;
+    }
+}

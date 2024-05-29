@@ -21,7 +21,7 @@ const NewsItem: FC<NewsItemProps> = ({news, onClick}) => {
                     }}
                 />
             </div>
-            <div>
+            <div className="news-description-body">
                 <p className="news-category">{news.category_id.toUpperCase()}</p>
                 <h2 className="news-title">{news.title}</h2>
                 <p className="news-description">{news.description}</p>

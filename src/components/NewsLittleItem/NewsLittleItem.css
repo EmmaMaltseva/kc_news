@@ -2,13 +2,13 @@
     margin-left: 100px;
     padding-left: 10px;
     border-left: 9px solid var(--color-dark);
-    display: flex;
-    justify-content: space-between;
-    column-gap: 20px;
     max-width: 345px;
+    transition: 0.5s;
     cursor: pointer;
 }
-
+.little-item-image, .news-little-category, .news-little-description {
+    display: none;
+}
 .little-news-title {
     font-size: 20px;
     font-weight: 700;
@@ -58,4 +58,127 @@
     text-decoration: none;
     outline: none;
     color: var(--color-light-grey);
+}
+
+@media (max-width: 1570px) {
+
+    .list-little-item-news {
+        margin-top: 30px;
+    }
+
+    .little-item-news {
+        column-gap: 20px;
+        border: none;
+        display: flex;
+        padding-left: 0;
+        margin-left: 0;
+        max-width: 1004px;
+    }
+
+    .little-item-image {
+        display: block;
+        position: relative;
+        overflow:hidden;
+        width:344px;
+        height:344px;
+        flex-shrink: 0
+    }
+
+    .image-little-item-news {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width: 344px;
+        height: 344px;
+        object-fit:cover;
+    }
+    .news-little-category {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--color-orange);
+    }
+
+    .little-news-title {
+        margin-top: 10px;
+        font-size: 42px;
+        font-weight: 700;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        line-height: normal;
+    }
+
+    .news-little-description {
+        display: block;
+        margin-top: 25px;
+        font-size: 22px;
+        font-weight: 400;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        line-height: normal;
+    }
+
+    .little-news-description {
+        margin-top: 0;
+    }
+
+    .little-news-date {
+        display: none;
+    }
+
+    .little-news-source {
+        margin-top: 34px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+
+    .little-news-source::before {
+        display: none;
+    }
+
+    .btn-new:hover {
+        transform: translate(0,-3px);
+        box-shadow: 0 20px 40px 0 rgb(165, 165, 165);
+    }
+}
+
+@media (max-width: 1024px) {
+    .little-item-news {
+        flex-direction: column;
+        margin-inline: 80px;
+    }
+
+    .little-news-title {
+        font-size: 32px;
+    }
+
+    .little-item-image {
+        width: 100%;
+        height: 100%;
+    }
+    .image-little-item-news {
+        position: static;
+        transform: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .little-news-description-body {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .little-item-news {
+        margin-inline: 30px;
+    }
 }

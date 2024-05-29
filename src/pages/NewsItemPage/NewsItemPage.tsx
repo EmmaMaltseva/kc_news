@@ -80,8 +80,8 @@ const NewsItemPage:FC = () => {
                                 currentTarget.src = 'https://tsul.uz/images/default-news-image.png';
                             }}
                         />
-                        <div>
-                            <div className="news-item-page-body-description">{news?.description}</div>
+                        <div className="news-item-page-body-description">
+                            <div className="news-item-page-description">{news?.description}</div>
                             <span className="news-item-page-source">Источник: {news?.source_id}</span>
                         </div>
                     </div>

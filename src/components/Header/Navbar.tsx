@@ -5,7 +5,7 @@ import logo from "./logo.png";
 const Navbar: FC = () => {
 
     return (
-        <div className="header">
+        <div className="header-my">
             <Link className="header-logo" to="/">
                 <img
                     className="header-logo-image"
